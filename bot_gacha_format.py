@@ -165,7 +165,7 @@ def run_discord_bot():
         username = message.author
         user_message = message.content
         channel = message.channel
-        print(f"{username} said:"{user_message}" ({channel})")
+        print(f"{username} said: {user_message} ({channel})")
 
         # url section for pictures for the cards
         '''
